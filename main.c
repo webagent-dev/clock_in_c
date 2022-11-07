@@ -2,15 +2,22 @@
 #include <unistd.h>
 #include <curses.h>
 
-void get_time();
+//void get_time();
+void get_clock();
 int main()
 {
     printf("please enter your current time in this format: <HOURS>:<MUNITE>:<SECONDS>\n");
-    get_time();
+    get_clock();
     return 0;
 }
 // function to get input and out for our time
-
+// solution to create a watch thst work on my MAC and every PC
+void get_clock(){
+  int hours, minutes, seconds;
+  printf("we are gone make this work this time");
+}
+// window PC solution to create a clock
+/*
 void get_time()
 {
     int hours;
@@ -42,3 +49,4 @@ void get_time()
     }
     getch();
 }
+*/
